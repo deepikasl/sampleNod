@@ -1,9 +1,4 @@
 resources:
-  - name: myParams
-    type: params
-    version:
-      params:
-        foo: "BAR"
         
   - name: myVersion
     type: version
