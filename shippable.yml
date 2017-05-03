@@ -7,4 +7,4 @@ node_js:
     
 build:
   ci:
-    - if [[ $COMMIT_MESSAGE == *"My long"* ]]; then echo "works; fi
+    - if [[ $COMMIT_MESSAGE == *"shippable"* ]]; then echo "works; fi
