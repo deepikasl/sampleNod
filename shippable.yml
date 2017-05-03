@@ -6,5 +6,5 @@ node_js:
   - 0.12
     
 build:
-  ci
+  ci:
     - if [[ $COMMIT_MESSAGE == *"My long"* ]]; then echo "works; fi
