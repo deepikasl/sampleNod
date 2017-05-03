@@ -6,5 +6,5 @@ node_js:
   - 0.12
     
 build:
-  pre_ci:
-    - echo $COMMIT_MESSAGE | awk -F- '{print $NF}'
+  ci
+    - if [[ $COMMIT_MESSAGE == *"My long"* ]]; then echo "works; fi
