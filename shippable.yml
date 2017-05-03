@@ -9,3 +9,4 @@ build:
   ci:
     - if [[ $COMMIT_MESSAGE == *"full-test-suite"* ]]; then echo "works"; fi
     - if [[ $COMMIT_MESSAGE != *"full-test-suite"* ]]; then echo "no works"; fi
+
