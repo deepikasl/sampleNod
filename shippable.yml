@@ -10,3 +10,4 @@ build:
     - if [[ $COMMIT_MESSAGE == *"full-test-suite"* ]]; then echo "run your full test script"; fi
     - if [[ $COMMIT_MESSAGE != *"full-test-suite"* ]]; then echo "run your smaller test"; fi
     
+
